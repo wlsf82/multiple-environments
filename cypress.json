@@ -1,4 +1,5 @@
 {
   "baseUrl": "https://hackernews-seven.vercel.app",
-  "fixturesFolder": false
+  "fixturesFolder": false,
+  "pluginsFile": false
 }
