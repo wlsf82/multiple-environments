@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Sample project to demonstrate  how to run Cypress tests on multiple environments based on config files per environment.",
   "scripts": {
-    "cy:open:prod": "cypress open --env configFile=prod",
-    "cy:open:dev": "cypress open",
-    "test:prod": "cypress run --env configFile=prod",
-    "test:dev": "cypress run"
+    "cy:open:prod": "cypress open --config baseUrl=https://wlsf82-hacker-stories.web.app --env environment=prod",
+    "cy:open:dev": "cypress open --env environment=dev",
+    "test:prod": "cypress run --config baseUrl=https://wlsf82-hacker-stories.web.app --env environment=prod",
+    "test:dev": "cypress run --env environment=dev"
   },
   "keywords": [
     "cypress.io",
