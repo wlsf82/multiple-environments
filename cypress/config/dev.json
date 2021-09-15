@@ -1,3 +1,6 @@
 {
-  "baseUrl": "https://hackernews-seven.vercel.app"
+  "baseUrl": "https://hackernews-seven.vercel.app",
+  "env": {
+    "environment": "dev"
+  }
 }
