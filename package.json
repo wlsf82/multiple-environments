@@ -1,0 +1,22 @@
+{
+  "name": "multiple-environments",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate  how to run Cypress tests on multiple environments based on config files per environment.",
+  "scripts": {
+    "cy:open:prod": "cypress open --env configFile=prod",
+    "cy:open:dev": "cypress open",
+    "test:prod": "cypress run --env configFile=prod",
+    "test:dev": "cypress run"
+  },
+  "keywords": [
+    "cypress.io",
+    "multiple configs per environment",
+    "talking about testing"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.4.0"
+  },
+  "dependencies": {}
+}
