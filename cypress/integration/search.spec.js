@@ -1,5 +1,6 @@
 it('searching for "javascript" returns results', () => {
   cy.log(`Running against ${Cypress.env('environment')} environment`)
+  cy.logSensibleData()
 
   cy.intercept('GET', '**/search**').as('getStories')
   cy.visit('/')
